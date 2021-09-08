@@ -3,7 +3,7 @@ Use the element selector to give the <body> element a margin value of 8px and a 
 Give a heading on your page the id of mainHeading and use the id selector in styles.css to give it a color value of red.
 Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css to give it a color value of green. */
 /* element selector */
-.body {
+body {
     background-color: #FFEBCD;
     margin: 8px;
     display: block;
@@ -11,14 +11,15 @@ Give a paragraph on your page the id of testP and a class name of funParagraph. 
 }
 
 /* class selector */
-.funParagraph {
-    background-color: #7FFFD4;
+#testP {
+    background-color: green;
     margin-left: 5px;
     margin-right: 5px;
+    color: white;
 }
 /* id selector */
 #mainHeading {
-    background-color: #FF7F50;
+    background-color: red;
     padding: 20px;
 }
 
