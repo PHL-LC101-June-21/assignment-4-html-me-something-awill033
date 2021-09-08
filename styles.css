@@ -1,1 +1,65 @@
-/* Write your CSS here! */
+/* Write your CSS here! Follow these rules:
+Use the element selector to give the <body> element a margin value of 8px and a display type of block.
+Give a heading on your page the id of mainHeading and use the id selector in styles.css to give it a color value of red.
+Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css to give it a color value of green. */
+/* element selector */
+body {
+    background-color: #FFEBCD;
+    margin: 8px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* class selector */
+#testP {
+    background-color: green;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+/* id selector */
+#mainHeading {
+    background-color: red;
+    padding: 20px;
+}
+
+#authorNote {
+  text-align: left;
+  margin-left:-10px; 
+}
+
+h1, h2 {
+	text-align: center;
+
+}
+
+.images {
+    width: 20%;
+    height: auto;
+  }
+
+p {
+    padding: 1.25em;
+    margin: 50px;
+    color: #595959;
+}    
+
+figure {
+	text-align: center;
+}
+
+.myimages {
+  max-width: 100%;
+  height: auto;
+	padding: 20px;
+	text-align: center;
+}
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
